@@ -27,7 +27,7 @@ import { Report } from './reports/entities/report.entity';
       synchronize: true,
       sync: {
         alter: true,
-        force: true,
+        // force: true,
       },
     }),
     TransactionsModule,
